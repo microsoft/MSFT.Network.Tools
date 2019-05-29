@@ -20,6 +20,7 @@ Describe "$($env:APPVEYOR_BUILD_FOLDER)-Manifest" {
                 $_ -in ($TestModule).RequiredModules.Name | Should be $true
             }
 
+            Remove-Variable $module
             $module = Find-Module -Name $_ -ErrorAction SilentlyContinue
 
             It "The $_ module should be available in the PowerShell gallery" {
