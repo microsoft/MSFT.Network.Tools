@@ -1,5 +1,5 @@
-$DataFile   = Import-PowerShellDataFile .\MSFTNetworking.Tools.psd1 -ErrorAction SilentlyContinue
-$TestModule = Test-ModuleManifest       .\MSFTNetworking.Tools.psd1 -ErrorAction SilentlyContinue
+$DataFile   = Import-PowerShellDataFile ".\$($env:APPVEYOR_BUILD_FOLDER)\$($env:APPVEYOR_BUILD_FOLDER).psd1" -ErrorAction SilentlyContinue
+$TestModule = Test-ModuleManifest       ".\$($env:APPVEYOR_BUILD_FOLDER)\$($env:APPVEYOR_BUILD_FOLDER).psd1" -ErrorAction SilentlyContinue
 
 Describe "$($env:APPVEYOR_BUILD_FOLDER)-Manifest" {
     Context Validation {
