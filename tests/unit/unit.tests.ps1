@@ -19,6 +19,12 @@ Describe "$($env:APPVEYOR_BUILD_FOLDER)-Manifest" {
             It "Should contain the $_ Module" {
                 $_ -in ($TestModule).RequiredModules.Name | Should be $true
             }
+
+            $module = Find-Module -Name $_ -ErrorAction SilentlyContinue
+
+            It "The $_ module should be available in the PowerShell gallery" {
+                $module | Should not BeNullOrEmpty
+            }
         }
     }
 }
