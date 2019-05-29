@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="6" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-05-29" time="00:24:24">
+  <environment user="appveyor" machine-name="APPVYR-WIN" cwd="C:\projects\MSFTNetworking.Tools" user-domain="APPVYR-WIN" platform="Microsoft Windows Server 2012 R2 Datacenter|C:\windows|\Device\Harddisk0\Partition5" nunit-version="2.5.8.0" os-version="6.3.9600" clr-version="4.0.30319.42000" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="1.3664" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\projects\MSFTNetworking.Tools\tests\unit\unit.tests.ps1" executed="True" result="Success" success="True" time="1.3664" asserts="0" description="C:\projects\MSFTNetworking.Tools\tests\unit\unit.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="MSFTNetwork.Tools-Manifest" executed="True" result="Success" success="True" time="1.0432" asserts="0" description="MSFTNetwork.Tools-Manifest">
+            <results>
+              <test-suite type="TestFixture" name="Validation" executed="True" result="Success" success="True" time="0.8027" asserts="0" description="Validation">
+                <results>
+                  <test-case description="[Import-PowerShellDataFile] - MSFTNetworking.Tools.psd1 is a valid PowerShell Data File" name="MSFTNetwork.Tools-Manifest.Validation.[Import-PowerShellDataFile] - MSFTNetworking.Tools.psd1 is a valid PowerShell Data File" time="0.1894" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="[Test-ModuleManifest] - MSFTNetworking.Tools.psd1 should pass the basic test" name="MSFTNetwork.Tools-Manifest.Validation.[Test-ModuleManifest] - MSFTNetworking.Tools.psd1 should pass the basic test" time="0.0074" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Should specify 3 modules" name="MSFTNetwork.Tools-Manifest.Validation.Should specify 3 modules" time="0.0237" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Should contain the DataCenterBridging Module" name="MSFTNetwork.Tools-Manifest.Validation.Should contain the DataCenterBridging Module" time="0.098" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Should contain the VMNetworkAdapter Module" name="MSFTNetwork.Tools-Manifest.Validation.Should contain the VMNetworkAdapter Module" time="0.0035" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Should contain the SoftwareTimestamping Module" name="MSFTNetwork.Tools-Manifest.Validation.Should contain the SoftwareTimestamping Module" time="0.0033" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
