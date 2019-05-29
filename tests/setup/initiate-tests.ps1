@@ -2,7 +2,7 @@
 # Pester               : https://github.com/pester/Pester/wiki
 # Pester Code Coverage : https://info.sapien.com/index.php/scripting/scripting-modules/testing-pester-code-coverage
 
-$testResultPath = '.\tests\results\TestsResults.xml'
+$testResultPath = '.\tests\results\TestResults.xml'
 # This is a manifest so no code coverage is possible.  Original line kept below:
 #...\results\TestsResults.xml -PassThru -CodeCoverage .\MSFTNetworking.Tools.psd1
 $res = Invoke-Pester -Path ".\tests\unit" -OutputFormat NUnitXml -OutputFile $testResultPath -PassThru
