@@ -12,7 +12,7 @@
 # RootModule = ''
 
 # Version number of this module.
-ModuleVersion = '0.0.0.14'
+ModuleVersion = '0.0.0.15'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -51,12 +51,10 @@ Description = 'This module manifest contains networking tools by the Microsoft C
 # ProcessorArchitecture = ''
 
 # Modules that must be imported into the global environment prior to importing this module
-RequiredModules = @(
-    @{ModuleName = 'DataCenterBridging'; ModuleVersion = '0.0.0.4'; }, 
-    @{ModuleName = 'VMNetworkAdapter'; ModuleVersion = '0.0.0.4'; }, 
-    @{ModuleName = 'SoftwareTimestamping'; ModuleVersion = '1.0'; }
-    @{ModuleName = 'Start-CPUBurn'; ModuleVersion = '0.0.0.1'; }
-)
+RequiredModules = @(@{ModuleName = 'DataCenterBridging'; ModuleVersion = '0.0.0.4'; }, 
+               @{ModuleName = 'VMNetworkAdapter'; ModuleVersion = '0.0.0.4'; }, 
+               @{ModuleName = 'SoftwareTimestamping'; ModuleVersion = '1.0'; }, 
+               @{ModuleName = 'Start-CPUBurn'; ModuleVersion = '0.0.0.1'; })
 
 # Assemblies that must be loaded prior to importing this module
 # RequiredAssemblies = @()
