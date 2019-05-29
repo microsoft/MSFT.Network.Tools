@@ -12,7 +12,7 @@
 # RootModule = ''
 
 # Version number of this module.
-ModuleVersion = '0.0.0.16'
+ModuleVersion = '0.0.0.17'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -57,7 +57,7 @@ RequiredModules = @(@{ModuleName = 'DataCenterBridging'; ModuleVersion = '0.0.0.
                @{ModuleName = 'Start-CPUBurn'; ModuleVersion = '0.0.0.1'; })
 
 # Assemblies that must be loaded prior to importing this module
-# RequiredAssemblies = @() 
+# RequiredAssemblies = @()
 
 # Script files (.ps1) that are run in the caller's environment prior to importing this module.
 # ScriptsToProcess = @()
