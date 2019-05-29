@@ -7,7 +7,8 @@ Invoke-AppveyorInstallTask
 
 $ModuleManifest = Test-ModuleManifest .\$($env:RepoName).psd1 -ErrorAction SilentlyContinue
 $repoRequiredModules = $ModuleManifest.RequiredModules.Name
-$PowerShellModules += $repoRequiredModules
+
+if ($repoRequiredModules) { $PowerShellModules += $repoRequiredModules }
 
 # This section is taken care of by Invoke-AppVeyorInstallTask
 <#[string[]]$PackageProviders = @('NuGet', 'PowerShellGet')
