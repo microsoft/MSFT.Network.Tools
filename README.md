@@ -6,6 +6,24 @@ Top-level manifest module containing networking tools by the Microsoft Core Netw
 
 Find more by the core networking team using the [MSFTNet](https://github.com/topics/msftnet) topic
 
+## Tools included in this module
+
+### SoftwareTimestamping (MSFTNetworking.Tools v0.0.0.10)
+
+This module provides a powershell module and DSC Resource to enable software timestamping
+
+### Data Center Bridging (MSFTNetworking.Tools v0.0.0.1)
+
+DSC PowerShell module intended to deploy Data Center Bridging settings using https://aka.ms/Validate-DCB
+
+### VMNetworkAdapter (MSFTNetworking.Tools v0.0.0.1)
+
+DSC PowerShell module intended to deploy virtual NIC settings using https://aka.ms/Validate-DCB
+
+### Start-CPUBurn (MSFTNetworking.Tools v0.0.0.14)
+
+Start-CPUBurn is a tool used to burn CPU cores.  This was originally used to test the dynamic queue scheduling algorithm that updates the RSSv2 indirection table for Dynamic VMMQ which was first shipped in Windows Server 2019.
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
