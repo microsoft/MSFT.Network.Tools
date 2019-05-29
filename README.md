@@ -1,4 +1,4 @@
-# MSFTNetworking.Tools 
+# MSFTNetworking.Tools
 
 Top-level manifest module containing networking tools by the Microsoft Core Networking Product Group at Microsoft
 
