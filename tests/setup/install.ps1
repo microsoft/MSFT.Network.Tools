@@ -6,9 +6,6 @@ Invoke-AppveyorInstallTask
 [string[]]$PowerShellModules = @("Pester", 'posh-git', 'psake', 'poshspec', 'PSScriptAnalyzer')
 
 $ModuleManifest = Test-ModuleManifest .\$($env:RepoName).psd1 -ErrorAction SilentlyContinue
-write-output $env:RepoName
-write-output $env:RepoName
-write-output $env:RepoName
 $repoRequiredModules = $ModuleManifest.RequiredModules.Name
 $PowerShellModules += $repoRequiredModules
 
