@@ -2,6 +2,8 @@
 # Pester               : https://github.com/pester/Pester/wiki
 # Pester Code Coverage : https://info.sapien.com/index.php/scripting/scripting-modules/testing-pester-code-coverage
 
+New-Item -Path .\tests -Name results -ItemType Directory -Force
+
 $testResultPath = '.\tests\results\TestResults.xml'
 # This is a manifest so no code coverage is possible.  Original line kept below:
 #...\results\TestsResults.xml -PassThru -CodeCoverage .\MSFTNetworking.Tools.psd1
