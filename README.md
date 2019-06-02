@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/1f1iyhlpqph68na2?svg=true)](https://ci.appveyor.com/project/MSFTCoreNet/msftnetworking-tools)
+
 # MSFT.Network.Tools
 
 Top-level manifest module containing network configuration tools by the Microsoft Core Networking Product Group at Microsoft
