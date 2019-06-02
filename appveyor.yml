@@ -5,7 +5,7 @@
 # GitHub push with tokens       : https://www.appveyor.com/docs/how-to/git-push/
 
 # Repo cloned into this folder on the build worker
-clone_folder: c:\projects\MSFTNetworking.Tools
+clone_folder: c:\projects\MSFT.Network.Tools
 
 init:
   - ps: $Env:repoName = $($env:APPVEYOR_REPO_NAME.Split('/')[1])

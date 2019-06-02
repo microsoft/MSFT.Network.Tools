@@ -11,11 +11,11 @@ Describe "$($env:repoName)-Manifest" {
             $TestModule | Should Not BeNullOrEmpty
         }
 
-        It "Should specify 3 modules" {
-            ($TestModule).RequiredModules.Count | Should BeGreaterThan 2
+        It "Should specify at least 4 modules" {
+            ($TestModule).RequiredModules.Count | Should BeGreaterThan 3
         }
 
-        'DataCenterBridging', 'VMNetworkAdapter', 'SoftwareTimestamping' | ForEach-Object {
+        'DataCenterBridging', 'VMNetworkAdapter', 'SoftwareTimestamping', 'Start-CPUBurn' | ForEach-Object {
             It "Should contain the $_ Module" {
                 $_ -in ($TestModule).RequiredModules.Name | Should be $true
             }
