@@ -2,9 +2,17 @@
 
 Top-level manifest module containing network configuration tools by the Microsoft Core Networking Product Group at Microsoft
 
-## :star: More by the Microsoft Core Networking team
+### :star: More by the Microsoft Core Networking team
 
-Find more by the core networking team using the [MSFTNet](https://github.com/topics/msftnet) topic
+Find more from the Core Networking team using the [MSFTNet](https://github.com/topics/msftnet) topic
+
+# Installation
+
+This module is part of MSFT.Network.Tools which can be installed using this command:
+```Install-Module MSFT.Network.Tools```
+
+To see all modules from the Microsoft Core Networking team, please use:
+```Find-Module -Tag MSFTNet```
 
 ## Tools included in this module
 
