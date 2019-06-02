@@ -1,6 +1,6 @@
 # MSFT.Network.Tools
 
-Top-level manifest module containing networking tools by the Microsoft Core Networking Product Group at Microsoft
+Top-level manifest module containing network configuration tools by the Microsoft Core Networking Product Group at Microsoft
 
 ## :star: More by the Microsoft Core Networking team
 
