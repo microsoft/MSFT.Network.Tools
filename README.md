@@ -4,7 +4,7 @@
 
 Top-level manifest module containing network configuration tools by the Microsoft Core Networking Product Group at Microsoft
 
-### :star: More by the Microsoft Core Networking team
+## :star: More by the Microsoft Core Networking team
 
 Find more from the Core Networking team using the [MSFTNet](https://github.com/topics/msftnet) topic
 
