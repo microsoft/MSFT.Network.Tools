@@ -16,16 +16,17 @@ Describe "$($env:repoName)-Manifest" {
         }
 
         'DataCenterBridging', 'VMNetworkAdapter', 'SoftwareTimestamping', 'Start-CPUBurn' | ForEach-Object {
+            $module = Find-Module -Name $_ -ErrorAction SilentlyContinue
+
             It "Should contain the $_ Module" {
                 $_ -in ($TestModule).RequiredModules.Name | Should be $true
             }
 
-            Remove-Variable $module -ErrorAction SilentlyContinue
-            $module = Find-Module -Name $_ -ErrorAction SilentlyContinue
-
             It "The $_ module should be available in the PowerShell gallery" {
                 $module | Should not BeNullOrEmpty
             }
+
+            Remove-Variable -Name Module -ErrorAction SilentlyContinue
         }
     }
 }
