@@ -1,4 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/1f1iyhlpqph68na2?svg=true)](https://ci.appveyor.com/project/MSFTCoreNet/msftnetworking-tools)
+[![downloads](https://img.shields.io/powershellgallery/dt/Convert-LBFO2SET.svg?label=downloads)](https://www.powershellgallery.com/packages/MSFT.Network.Tools)
+
 
 # MSFT.Network.Tools
 
@@ -33,6 +35,10 @@ DSC PowerShell module intended to deploy virtual NIC settings using https://aka.
 ### Start-CPUBurn (MSFT.Network.Tools v0.0.0.14)
 
 Start-CPUBurn is a tool used to burn CPU cores.  This was originally used to test the dynamic queue scheduling algorithm that updates the RSSv2 indirection table for Dynamic VMMQ which was first shipped in Windows Server 2019.
+
+### Convert-LBFO2SET (MSFT.Network.Tools v0.0.0.30)
+
+Convert-LBFO2SET is a tool used to convert LBFO teams into a Switch Embedded Team.  For more information, please see [this blog](https://aka.ms/DownWithLBFO).
 
 # Contributing
 
